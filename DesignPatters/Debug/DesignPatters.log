@@ -1,0 +1,4 @@
+﻿  DesignPatters.cpp
+c:\users\startkacz\documents\visual studio 2015\projects\games engineering\designpatters\designpatters\designpatters.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  DesignPatters.vcxproj -> C:\Users\StartkaCZ\Documents\Visual Studio 2015\Projects\Games Engineering\DesignPatters\Debug\DesignPatters.exe
+  DesignPatters.vcxproj -> C:\Users\StartkaCZ\Documents\Visual Studio 2015\Projects\Games Engineering\DesignPatters\Debug\DesignPatters.pdb (Full PDB)

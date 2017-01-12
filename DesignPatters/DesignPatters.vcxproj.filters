@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AbstractFactory">
+      <UniqueIdentifier>{d9f77ff3-20e9-4217-909e-c509777cb04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Handle">
+      <UniqueIdentifier>{ef17b3be-f502-4e61-96a5-272d708a1c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BridgePattern">
+      <UniqueIdentifier>{2b2a1765-f113-446f-9d26-00f9b9292e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProxyPattern">
+      <UniqueIdentifier>{aedcfc68-0400-4e42-ab3d-4ff3f57d3b90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Header Files\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Character2.h">
+      <Filter>Header Files\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleToCharacter.h">
+      <Filter>Header Files\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="Character3.h">
+      <Filter>Header Files\BridgePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawAPI.h">
+      <Filter>Header Files\BridgePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Header Files\ProxyPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphic.h">
+      <Filter>Header Files\ProxyPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicProxy.h">
+      <Filter>Header Files\ProxyPattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignPatters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
