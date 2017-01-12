@@ -11,6 +11,12 @@ public:
 	HandleToCharacter() : character(new Character2()) 
 	{
 	}
+
+	~HandleToCharacter()
+	{
+		if (character)
+			delete character;
+	}
 	
 	Character2* operator->() 
 	{ //overloaded ->
