@@ -19,7 +19,7 @@ int main()
 {
 	cout << "ABSTRACT FACOTRY PATTERN DISPLAYING:" << endl << endl;
 	///////////////////////////////////////////////////////////
-	//ABSTRACT FACTORY
+	//ABSTRACT FACTORY - Creating abstract objects without worrying about implementation/parameters
 	///////////////////////////////////////////////////////////
 	Factory* factory = new CharacterFactory;
 	vector<Character*> characters;
@@ -36,7 +36,7 @@ int main()
 
 	cout << endl << endl << "HANDLE CLASS DISPLAYING:" << endl << endl;
 	///////////////////////////////////////////////////////////
-	//HADNLE CLASS
+	//HADNLE CLASS - seperates interface from implementation
 	///////////////////////////////////////////////////////////
 	HandleToCharacter handle; handle->Print();
 	///////////////////////////////////////////////////////////
@@ -45,7 +45,7 @@ int main()
 
 	cout << endl << endl << "BRDIGE PATTERN DISPLAYING:" << endl << endl;
 	///////////////////////////////////////////////////////////
-	//BRDIGE PATTERN
+	//BRDIGE PATTERN - seperates interface from implementation
 	///////////////////////////////////////////////////////////
 	DrawAPI* api = new DrawImpl();
 	Character3* character3 = new Player2(api);
@@ -56,7 +56,7 @@ int main()
 
 	cout << endl << endl << "PROXY PATTERN DISPLAYING:" << endl << endl;
 	///////////////////////////////////////////////////////////
-	//PROXY PATTERN
+	//PROXY PATTERN - initializing of expensive resources
 	///////////////////////////////////////////////////////////
 	GraphicProxy gp;
 	gp.Draw();
