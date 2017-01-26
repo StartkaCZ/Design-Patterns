@@ -5,7 +5,10 @@
 class Character3
 {
 public:
-	virtual  ~Character3() = 0;
+	~Character3()
+	{
+
+	}
 	virtual void Draw() = 0;
 };
 
